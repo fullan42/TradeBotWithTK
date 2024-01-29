@@ -1,0 +1,43 @@
+2024-01-29 14:34:21,479 - INFO - This is an info message
+2024-01-29 14:34:21,479 - WARNING - This is a warning message
+2024-01-29 14:34:21,479 - ERROR - This is an error message
+2024-01-29 14:36:03,869 - INFO - This is an info message
+2024-01-29 14:36:03,869 - WARNING - This is a warning message
+2024-01-29 14:36:03,869 - ERROR - This is an error message
+2024-01-29 14:36:03,869 - INFO - This is an info message
+2024-01-29 14:36:20,677 - INFO - This is an info message
+2024-01-29 14:36:20,677 - WARNING - This is a warning message
+2024-01-29 14:36:20,677 - ERROR - This is an error message
+2024-01-29 14:36:28,050 - INFO - This is an info message
+2024-01-29 14:36:28,050 - WARNING - This is a warning message
+2024-01-29 14:36:28,050 - ERROR - This is an error message
+2024-01-29 14:36:28,051 - INFO - hi gardas 
+2024-01-29 14:39:49,592 - INFO - this is logged in all cases
+2024-01-29 14:39:49,592 - INFO - this is logged only if we execute
+2024-01-29 14:39:56,769 - INFO - this is logged in all cases
+2024-01-29 14:44:27,673 - INFO - this is logged in all cases
+2024-01-29 14:45:54,836 - INFO - this is logged in all cases
+2024-01-29 14:46:09,271 - INFO - this is logged in all cases
+2024-01-29 14:46:24,412 - INFO - this is logged in all cases
+2024-01-29 15:11:01,639 - INFO - this is logged in all cases
+2024-01-29 15:16:07,796 - INFO - this is logged in all cases
+2024-01-29 15:16:22,883 - INFO - this is logged in all cases
+2024-01-29 15:16:36,160 - INFO - this is logged in all cases
+2024-01-29 15:18:15,376 - INFO - this is logged in all cases
+2024-01-29 15:18:35,702 - INFO - this is logged in all cases
+2024-01-29 15:19:14,522 - INFO - this is logged in all cases
+2024-01-29 15:20:25,369 - INFO - this is logged in all cases
+2024-01-29 15:20:36,417 - INFO - this is logged in all cases
+2024-01-29 15:21:13,064 - INFO - this is logged in all cases
+2024-01-29 15:21:28,121 - INFO - this is logged in all cases
+2024-01-29 15:21:51,038 - INFO - this is logged in all cases
+2024-01-29 15:22:03,815 - INFO - this is logged in all cases
+2024-01-29 15:22:20,173 - INFO - this is logged in all cases
+2024-01-29 15:23:44,681 - INFO - this is logged in all cases
+2024-01-29 15:31:19,344 - INFO - this is logged in all cases
+2024-01-29 15:32:51,334 - INFO - this is logged in all cases
+2024-01-29 15:33:17,858 - INFO - this is logged in all cases
+2024-01-29 15:34:03,893 - INFO - this is logged in all cases
+2024-01-29 15:39:29,915 - INFO - this is logged in all cases
+2024-01-29 15:39:32,704 - INFO - this is logged in all cases
+2024-01-29 15:39:51,792 - INFO - this is logged in all cases
