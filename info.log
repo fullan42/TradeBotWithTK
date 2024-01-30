@@ -250,3 +250,8 @@
 2024-01-30 16:57:19,622 - INFO - Connection opened
 2024-01-30 16:57:19,942 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002A38D18AFC0>>: 's'
 2024-01-30 16:57:19,942 - ERROR - Connection error 's'
+2024-01-30 16:58:25,006 - INFO - Binance Futures Client Initiated
+2024-01-30 16:58:25,971 - INFO - Websocket connected
+2024-01-30 16:58:25,971 - INFO - Connection opened
+2024-01-30 16:58:26,289 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000001F1A474AFC0>>: 's'
+2024-01-30 16:58:26,290 - ERROR - Connection error 's'

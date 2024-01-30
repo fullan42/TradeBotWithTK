@@ -150,7 +150,6 @@ class BinanceFuturesClient:
     def on_error(self, ws, error):
         logger.error("Connection error %s", error)
     def on_message(self, ws, message):
-        print(message)
         data=json.loads(message)
 
 
