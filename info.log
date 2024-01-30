@@ -1,43 +1,252 @@
-2024-01-29 14:34:21,479 - INFO - This is an info message
-2024-01-29 14:34:21,479 - WARNING - This is a warning message
-2024-01-29 14:34:21,479 - ERROR - This is an error message
-2024-01-29 14:36:03,869 - INFO - This is an info message
-2024-01-29 14:36:03,869 - WARNING - This is a warning message
-2024-01-29 14:36:03,869 - ERROR - This is an error message
-2024-01-29 14:36:03,869 - INFO - This is an info message
-2024-01-29 14:36:20,677 - INFO - This is an info message
-2024-01-29 14:36:20,677 - WARNING - This is a warning message
-2024-01-29 14:36:20,677 - ERROR - This is an error message
-2024-01-29 14:36:28,050 - INFO - This is an info message
-2024-01-29 14:36:28,050 - WARNING - This is a warning message
-2024-01-29 14:36:28,050 - ERROR - This is an error message
-2024-01-29 14:36:28,051 - INFO - hi gardas 
-2024-01-29 14:39:49,592 - INFO - this is logged in all cases
-2024-01-29 14:39:49,592 - INFO - this is logged only if we execute
-2024-01-29 14:39:56,769 - INFO - this is logged in all cases
-2024-01-29 14:44:27,673 - INFO - this is logged in all cases
-2024-01-29 14:45:54,836 - INFO - this is logged in all cases
-2024-01-29 14:46:09,271 - INFO - this is logged in all cases
-2024-01-29 14:46:24,412 - INFO - this is logged in all cases
-2024-01-29 15:11:01,639 - INFO - this is logged in all cases
-2024-01-29 15:16:07,796 - INFO - this is logged in all cases
-2024-01-29 15:16:22,883 - INFO - this is logged in all cases
-2024-01-29 15:16:36,160 - INFO - this is logged in all cases
-2024-01-29 15:18:15,376 - INFO - this is logged in all cases
-2024-01-29 15:18:35,702 - INFO - this is logged in all cases
-2024-01-29 15:19:14,522 - INFO - this is logged in all cases
-2024-01-29 15:20:25,369 - INFO - this is logged in all cases
-2024-01-29 15:20:36,417 - INFO - this is logged in all cases
-2024-01-29 15:21:13,064 - INFO - this is logged in all cases
-2024-01-29 15:21:28,121 - INFO - this is logged in all cases
-2024-01-29 15:21:51,038 - INFO - this is logged in all cases
-2024-01-29 15:22:03,815 - INFO - this is logged in all cases
-2024-01-29 15:22:20,173 - INFO - this is logged in all cases
-2024-01-29 15:23:44,681 - INFO - this is logged in all cases
-2024-01-29 15:31:19,344 - INFO - this is logged in all cases
-2024-01-29 15:32:51,334 - INFO - this is logged in all cases
-2024-01-29 15:33:17,858 - INFO - this is logged in all cases
-2024-01-29 15:34:03,893 - INFO - this is logged in all cases
-2024-01-29 15:39:29,915 - INFO - this is logged in all cases
-2024-01-29 15:39:32,704 - INFO - this is logged in all cases
-2024-01-29 15:39:51,792 - INFO - this is logged in all cases
+2024-01-30 17:30:30,565 - INFO - Binance Futures Client Initiated
+2024-01-30 17:31:05,465 - INFO - Binance Futures Client Initiated
+2024-01-30 17:31:29,603 - INFO - Binance Futures Client Initiated
+2024-01-30 17:32:02,988 - INFO - Binance Futures Client Initiated
+2024-01-30 17:33:08,235 - INFO - Binance Futures Client Initiated
+2024-01-30 17:33:45,245 - INFO - Binance Futures Client Initiated
+2024-01-30 17:34:54,013 - INFO - Binance Futures Client Initiated
+2024-01-30 17:37:18,428 - INFO - Binance Futures Client Initiated
+2024-01-30 17:37:34,691 - INFO - Binance Futures Client Initiated
+2024-01-30 17:38:08,222 - INFO - Binance Futures Client Initiated
+2024-01-30 17:38:52,816 - INFO - Binance Futures Client Initiated
+2024-01-30 17:39:22,962 - INFO - Binance Futures Client Initiated
+2024-01-30 17:40:11,604 - INFO - Binance Futures Client Initiated
+2024-01-30 17:40:14,041 - INFO - Binance Futures Client Initiated
+2024-01-30 17:40:20,162 - INFO - Binance Futures Client Initiated
+2024-01-30 17:40:33,748 - INFO - Binance Futures Client Initiated
+2024-01-30 18:03:25,635 - INFO - Binance Futures Client Initiated
+2024-01-30 18:05:13,136 - INFO - Binance Futures Client Initiated
+2024-01-30 18:05:57,390 - INFO - Binance Futures Client Initiated
+2024-01-30 18:07:16,470 - INFO - Binance Futures Client Initiated
+2024-01-30 18:10:41,811 - INFO - Binance Futures Client Initiated
+2024-01-30 18:10:48,277 - INFO - Binance Futures Client Initiated
+2024-01-30 18:12:20,952 - INFO - Binance Futures Client Initiated
+2024-01-30 18:14:39,556 - INFO - Binance Futures Client Initiated
+2024-01-30 18:21:08,134 - INFO - Binance Futures Client Initiated
+2024-01-30 18:21:49,866 - INFO - Binance Futures Client Initiated
+2024-01-30 18:22:06,232 - INFO - Binance Futures Client Initiated
+2024-01-30 18:24:05,060 - INFO - Binance Futures Client Initiated
+2024-01-30 18:24:15,962 - INFO - Binance Futures Client Initiated
+2024-01-30 18:26:59,807 - INFO - Binance Futures Client Initiated
+2024-01-30 18:27:00,686 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:27:36,675 - INFO - Binance Futures Client Initiated
+2024-01-30 18:27:37,350 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:28:33,424 - INFO - Binance Futures Client Initiated
+2024-01-30 18:28:34,217 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:30:07,598 - INFO - Binance Futures Client Initiated
+2024-01-30 18:30:08,377 - ERROR - Request failed, status code 400, method: GET, endpoint: /fapi/v2/account, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:30:18,017 - INFO - Binance Futures Client Initiated
+2024-01-30 18:30:18,753 - ERROR - Request failed, status code 400, method: GET, endpoint: /fapi/v2/account, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:31:33,024 - INFO - Binance Futures Client Initiated
+2024-01-30 18:31:33,786 - ERROR - Request failed, status code 400, method: GET, endpoint: /fapi/v2/account, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:31:52,610 - INFO - Binance Futures Client Initiated
+2024-01-30 18:32:04,890 - INFO - Binance Futures Client Initiated
+2024-01-30 18:32:05,665 - ERROR - Error making request to Binance API: {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:32:33,541 - INFO - Binance Futures Client Initiated
+2024-01-30 18:32:34,327 - ERROR - Request failed, status code 400, method: GET, endpoint: /fapi/v2/account, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:33:27,601 - INFO - Binance Futures Client Initiated
+2024-01-30 18:33:28,277 - ERROR - Request failed, status code 400, method: GET, endpoint: /fapi/v2/account, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:33:43,614 - INFO - Binance Futures Client Initiated
+2024-01-30 18:33:44,863 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1022, 'msg': 'Signature for this request is not valid.'}
+2024-01-30 18:35:51,358 - INFO - Binance Futures Client Initiated
+2024-01-30 18:36:04,535 - INFO - Binance Futures Client Initiated
+2024-01-30 18:36:05,342 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:37:19,253 - INFO - Binance Futures Client Initiated
+2024-01-30 18:37:23,825 - INFO - Binance Futures Client Initiated
+2024-01-30 18:38:04,607 - INFO - Binance Futures Client Initiated
+2024-01-30 18:40:06,556 - INFO - Binance Futures Client Initiated
+2024-01-30 18:40:07,339 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:40:23,451 - INFO - Binance Futures Client Initiated
+2024-01-30 18:40:24,177 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:40:32,650 - INFO - Binance Futures Client Initiated
+2024-01-30 18:40:36,074 - INFO - Binance Futures Client Initiated
+2024-01-30 18:40:36,741 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:40:48,281 - INFO - Binance Futures Client Initiated
+2024-01-30 18:40:51,055 - INFO - Binance Futures Client Initiated
+2024-01-30 18:40:53,985 - INFO - Binance Futures Client Initiated
+2024-01-30 18:41:59,943 - INFO - Binance Futures Client Initiated
+2024-01-30 18:42:00,703 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:42:28,352 - INFO - Binance Futures Client Initiated
+2024-01-30 18:42:29,114 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:42:39,329 - INFO - Binance Futures Client Initiated
+2024-01-30 18:42:40,066 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:42:50,637 - INFO - Binance Futures Client Initiated
+2024-01-30 18:42:51,310 - ERROR - Request failed, status code 400, method: GET, endpoint: /fapi/v2/account, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:44:18,936 - INFO - Binance Futures Client Initiated
+2024-01-30 18:44:19,719 - ERROR - Request failed, status code 400, method: GET, endpoint: /fapi/v2/account, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:44:27,762 - INFO - Binance Futures Client Initiated
+2024-01-30 18:44:28,471 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order/test, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:44:37,740 - INFO - Binance Futures Client Initiated
+2024-01-30 18:44:38,465 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:45:14,566 - INFO - Binance Futures Client Initiated
+2024-01-30 18:46:03,274 - INFO - Binance Futures Client Initiated
+2024-01-30 18:46:13,143 - INFO - Binance Futures Client Initiated
+2024-01-30 18:46:13,815 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:48:01,622 - INFO - Binance Futures Client Initiated
+2024-01-30 18:48:02,376 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:49:02,458 - INFO - Binance Futures Client Initiated
+2024-01-30 18:49:03,228 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 18:49:20,346 - INFO - Binance Futures Client Initiated
+2024-01-30 18:49:21,072 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1021, 'msg': "Timestamp for this request was 1000ms ahead of the server's time."}
+2024-01-30 15:52:41,558 - INFO - Binance Futures Client Initiated
+2024-01-30 15:52:42,392 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -4164, 'msg': "Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2024-01-30 15:53:03,162 - INFO - Binance Futures Client Initiated
+2024-01-30 16:05:33,025 - INFO - Binance Futures Client Initiated
+2024-01-30 16:05:34,980 - ERROR - Request failed, status code 400, method: DELETE, endpoint: /fapi/v1/order, response: {'code': -2011, 'msg': 'Unknown order sent.'}
+2024-01-30 16:06:03,502 - INFO - Binance Futures Client Initiated
+2024-01-30 16:06:42,324 - INFO - Binance Futures Client Initiated
+2024-01-30 16:06:43,846 - ERROR - Request failed, status code 400, method: DELETE, endpoint: /fapi/v1/order, response: {'code': -2011, 'msg': 'Unknown order sent.'}
+2024-01-30 16:08:02,945 - INFO - Binance Futures Client Initiated
+2024-01-30 16:08:03,725 - ERROR - Request failed, status code 400, method: POST, endpoint: /fapi/v1/order, response: {'code': -1117, 'msg': 'Invalid side.'}
+2024-01-30 16:08:04,411 - ERROR - Request failed, status code 400, method: DELETE, endpoint: /fapi/v1/order, response: {'code': -2011, 'msg': 'Unknown order sent.'}
+2024-01-30 16:08:49,493 - INFO - Binance Futures Client Initiated
+2024-01-30 16:08:51,010 - ERROR - Request failed, status code 400, method: DELETE, endpoint: /fapi/v1/order, response: {'code': -2011, 'msg': 'Unknown order sent.'}
+2024-01-30 16:08:56,623 - INFO - Binance Futures Client Initiated
+2024-01-30 16:09:16,844 - INFO - Binance Futures Client Initiated
+2024-01-30 16:09:35,305 - INFO - Binance Futures Client Initiated
+2024-01-30 16:10:08,692 - INFO - Binance Futures Client Initiated
+2024-01-30 16:10:32,582 - INFO - Binance Futures Client Initiated
+2024-01-30 16:18:37,355 - INFO - Binance Futures Client Initiated
+2024-01-30 16:20:58,342 - INFO - Binance Futures Client Initiated
+2024-01-30 16:21:06,186 - INFO - Binance Futures Client Initiated
+2024-01-30 16:21:26,635 - INFO - Binance Futures Client Initiated
+2024-01-30 16:22:09,448 - INFO - Binance Futures Client Initiated
+2024-01-30 16:22:10,644 - ERROR - Connection error Handshake status 502 Bad Gateway -+-+- {'content-type': 'text/html', 'content-length': '582', 'connection': 'close', 'date': 'Tue, 30 Jan 2024 16:22:10 GMT', 'server': 'Bengine', 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS', 'x-cache': 'Error from cloudfront', 'via': '1.1 55a17c046bdefb0e3ad487d092541320.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'SOF50-P2', 'x-amz-cf-id': '7VAIcAkPTLF2CoKAU-G4y8mGr5Rp14a1GJ66ypSFN5de691c_tDAWQ=='} -+-+- b'<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n Sorry for the inconvenience.<br/>\r\nPlease report this message and include the following information to us.<br/>\r\nThank you very much!</p>\r\n<table>\r\n<tr>\r\n<td>URL:</td>\r\n<td>http://testnet.binancefuture.com/ws</td>\r\n</tr>\r\n<tr>\r\n<td>Server:</td>\r\n<td>tk_prod_dispatcher_pg</td>\r\n</tr>\r\n<tr>\r\n<td>Date:</td>\r\n<td>2024/01/30 16:22:10</td>\r\n</tr>\r\n</table>\r\n<hr/>Powered by Bengine<hr><center>tengine</center>\r\n</body>\r\n</html>\r\n'
+2024-01-30 16:22:10,644 - ERROR - Handshake status 502 Bad Gateway -+-+- {'content-type': 'text/html', 'content-length': '582', 'connection': 'close', 'date': 'Tue, 30 Jan 2024 16:22:10 GMT', 'server': 'Bengine', 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS', 'x-cache': 'Error from cloudfront', 'via': '1.1 55a17c046bdefb0e3ad487d092541320.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'SOF50-P2', 'x-amz-cf-id': '7VAIcAkPTLF2CoKAU-G4y8mGr5Rp14a1GJ66ypSFN5de691c_tDAWQ=='} -+-+- b'<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n Sorry for the inconvenience.<br/>\r\nPlease report this message and include the following information to us.<br/>\r\nThank you very much!</p>\r\n<table>\r\n<tr>\r\n<td>URL:</td>\r\n<td>http://testnet.binancefuture.com/ws</td>\r\n</tr>\r\n<tr>\r\n<td>Server:</td>\r\n<td>tk_prod_dispatcher_pg</td>\r\n</tr>\r\n<tr>\r\n<td>Date:</td>\r\n<td>2024/01/30 16:22:10</td>\r\n</tr>\r\n</table>\r\n<hr/>Powered by Bengine<hr><center>tengine</center>\r\n</body>\r\n</html>\r\n' - goodbye
+2024-01-30 16:22:10,644 - ERROR - error from callback <bound method BinanceFuturesClient.on_close of <connections.binance_futures.BinanceFuturesClient object at 0x000001F0BDEF18E0>>: BinanceFuturesClient.on_close() takes 2 positional arguments but 4 were given
+2024-01-30 16:22:10,644 - ERROR - Connection error BinanceFuturesClient.on_close() takes 2 positional arguments but 4 were given
+2024-01-30 16:22:11,315 - INFO - Binance Futures Client Initiated
+2024-01-30 16:22:12,453 - ERROR - Connection error Handshake status 502 Bad Gateway -+-+- {'content-type': 'text/html', 'content-length': '582', 'connection': 'close', 'date': 'Tue, 30 Jan 2024 16:22:12 GMT', 'server': 'Bengine', 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS', 'x-cache': 'Error from cloudfront', 'via': '1.1 5492e1c9a06f2320204e7fcc383cff5c.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'FRA60-P3', 'x-amz-cf-id': '57qqAnaQ91Ap7snSU8Zj6NlfQee3QQdvf94ajd7MUuxvV4lMCP5uLg=='} -+-+- b'<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n Sorry for the inconvenience.<br/>\r\nPlease report this message and include the following information to us.<br/>\r\nThank you very much!</p>\r\n<table>\r\n<tr>\r\n<td>URL:</td>\r\n<td>http://testnet.binancefuture.com/ws</td>\r\n</tr>\r\n<tr>\r\n<td>Server:</td>\r\n<td>tk_prod_dispatcher_pg</td>\r\n</tr>\r\n<tr>\r\n<td>Date:</td>\r\n<td>2024/01/30 16:22:12</td>\r\n</tr>\r\n</table>\r\n<hr/>Powered by Bengine<hr><center>tengine</center>\r\n</body>\r\n</html>\r\n'
+2024-01-30 16:22:12,453 - ERROR - Handshake status 502 Bad Gateway -+-+- {'content-type': 'text/html', 'content-length': '582', 'connection': 'close', 'date': 'Tue, 30 Jan 2024 16:22:12 GMT', 'server': 'Bengine', 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS', 'x-cache': 'Error from cloudfront', 'via': '1.1 5492e1c9a06f2320204e7fcc383cff5c.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'FRA60-P3', 'x-amz-cf-id': '57qqAnaQ91Ap7snSU8Zj6NlfQee3QQdvf94ajd7MUuxvV4lMCP5uLg=='} -+-+- b'<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n Sorry for the inconvenience.<br/>\r\nPlease report this message and include the following information to us.<br/>\r\nThank you very much!</p>\r\n<table>\r\n<tr>\r\n<td>URL:</td>\r\n<td>http://testnet.binancefuture.com/ws</td>\r\n</tr>\r\n<tr>\r\n<td>Server:</td>\r\n<td>tk_prod_dispatcher_pg</td>\r\n</tr>\r\n<tr>\r\n<td>Date:</td>\r\n<td>2024/01/30 16:22:12</td>\r\n</tr>\r\n</table>\r\n<hr/>Powered by Bengine<hr><center>tengine</center>\r\n</body>\r\n</html>\r\n' - goodbye
+2024-01-30 16:22:12,453 - ERROR - error from callback <bound method BinanceFuturesClient.on_close of <connections.binance_futures.BinanceFuturesClient object at 0x000001E7DDF803E0>>: BinanceFuturesClient.on_close() takes 2 positional arguments but 4 were given
+2024-01-30 16:22:12,453 - ERROR - Connection error BinanceFuturesClient.on_close() takes 2 positional arguments but 4 were given
+2024-01-30 16:22:38,697 - INFO - Binance Futures Client Initiated
+2024-01-30 16:23:05,419 - INFO - Binance Futures Client Initiated
+2024-01-30 16:23:07,750 - ERROR - Connection error Handshake status 502 Bad Gateway -+-+- {'content-type': 'text/html', 'content-length': '582', 'connection': 'close', 'date': 'Tue, 30 Jan 2024 16:23:07 GMT', 'server': 'Bengine', 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS', 'x-cache': 'Error from cloudfront', 'via': '1.1 a54cda8ccda3480314f451558e4dd062.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'FRA60-P3', 'x-amz-cf-id': 'l8Rd2rWKaTTAnmmm5K_LRifj3-mUxJhTu5WLQuZelw2R3yQTH9IKMQ=='} -+-+- b'<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n Sorry for the inconvenience.<br/>\r\nPlease report this message and include the following information to us.<br/>\r\nThank you very much!</p>\r\n<table>\r\n<tr>\r\n<td>URL:</td>\r\n<td>http://testnet.binancefuture.com/ws</td>\r\n</tr>\r\n<tr>\r\n<td>Server:</td>\r\n<td>tk_prod_dispatcher_pg</td>\r\n</tr>\r\n<tr>\r\n<td>Date:</td>\r\n<td>2024/01/30 16:23:07</td>\r\n</tr>\r\n</table>\r\n<hr/>Powered by Bengine<hr><center>tengine</center>\r\n</body>\r\n</html>\r\n'
+2024-01-30 16:23:07,750 - ERROR - Handshake status 502 Bad Gateway -+-+- {'content-type': 'text/html', 'content-length': '582', 'connection': 'close', 'date': 'Tue, 30 Jan 2024 16:23:07 GMT', 'server': 'Bengine', 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS', 'x-cache': 'Error from cloudfront', 'via': '1.1 a54cda8ccda3480314f451558e4dd062.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'FRA60-P3', 'x-amz-cf-id': 'l8Rd2rWKaTTAnmmm5K_LRifj3-mUxJhTu5WLQuZelw2R3yQTH9IKMQ=='} -+-+- b'<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n Sorry for the inconvenience.<br/>\r\nPlease report this message and include the following information to us.<br/>\r\nThank you very much!</p>\r\n<table>\r\n<tr>\r\n<td>URL:</td>\r\n<td>http://testnet.binancefuture.com/ws</td>\r\n</tr>\r\n<tr>\r\n<td>Server:</td>\r\n<td>tk_prod_dispatcher_pg</td>\r\n</tr>\r\n<tr>\r\n<td>Date:</td>\r\n<td>2024/01/30 16:23:07</td>\r\n</tr>\r\n</table>\r\n<hr/>Powered by Bengine<hr><center>tengine</center>\r\n</body>\r\n</html>\r\n' - goodbye
+2024-01-30 16:23:07,750 - ERROR - error from callback <bound method BinanceFuturesClient.on_close of <connections.binance_futures.BinanceFuturesClient object at 0x0000026A2A6718E0>>: BinanceFuturesClient.on_close() takes 2 positional arguments but 4 were given
+2024-01-30 16:23:07,750 - ERROR - Connection error BinanceFuturesClient.on_close() takes 2 positional arguments but 4 were given
+2024-01-30 16:23:16,060 - INFO - Binance Futures Client Initiated
+2024-01-30 16:24:25,118 - INFO - Connection opened
+2024-01-30 16:24:25,118 - INFO - Connection closed
+2024-01-30 16:25:52,349 - INFO - Connection opened
+2024-01-30 16:25:52,349 - WARNING - Connection closed
+2024-01-30 16:27:08,662 - INFO - Connection opened
+2024-01-30 16:27:08,662 - WARNING - Connection closed
+2024-01-30 16:27:08,662 - ERROR - Connection error error
+2024-01-30 16:27:08,662 - INFO - Binance Futures Client Initiated
+2024-01-30 16:27:47,067 - INFO - Binance Futures Client Initiated
+2024-01-30 16:30:07,257 - INFO - Binance Futures Client Initiated
+2024-01-30 16:32:13,094 - INFO - Binance Futures Client Initiated
+2024-01-30 16:32:44,824 - INFO - Binance Futures Client Initiated
+2024-01-30 16:33:46,314 - INFO - Binance Futures Client Initiated
+2024-01-30 16:33:49,092 - ERROR - Connection error Handshake status 502 Bad Gateway -+-+- {'content-type': 'text/html', 'content-length': '582', 'connection': 'close', 'date': 'Tue, 30 Jan 2024 16:33:48 GMT', 'server': 'Bengine', 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS', 'x-cache': 'Error from cloudfront', 'via': '1.1 d262e104d5d9dd6a4a52f090bdf9395c.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'FRA60-P3', 'x-amz-cf-id': 'D1rj1CaqWkbQq6wMPRqdV2hM97w1NFXA838scm5D32Otln04uBlZWg=='} -+-+- b'<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n Sorry for the inconvenience.<br/>\r\nPlease report this message and include the following information to us.<br/>\r\nThank you very much!</p>\r\n<table>\r\n<tr>\r\n<td>URL:</td>\r\n<td>http://testnet.binancefuture.com/ws</td>\r\n</tr>\r\n<tr>\r\n<td>Server:</td>\r\n<td>tk_prod_dispatcher_pg</td>\r\n</tr>\r\n<tr>\r\n<td>Date:</td>\r\n<td>2024/01/30 16:33:48</td>\r\n</tr>\r\n</table>\r\n<hr/>Powered by Bengine<hr><center>tengine</center>\r\n</body>\r\n</html>\r\n'
+2024-01-30 16:33:49,092 - ERROR - Handshake status 502 Bad Gateway -+-+- {'content-type': 'text/html', 'content-length': '582', 'connection': 'close', 'date': 'Tue, 30 Jan 2024 16:33:48 GMT', 'server': 'Bengine', 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS', 'x-cache': 'Error from cloudfront', 'via': '1.1 d262e104d5d9dd6a4a52f090bdf9395c.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'FRA60-P3', 'x-amz-cf-id': 'D1rj1CaqWkbQq6wMPRqdV2hM97w1NFXA838scm5D32Otln04uBlZWg=='} -+-+- b'<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n Sorry for the inconvenience.<br/>\r\nPlease report this message and include the following information to us.<br/>\r\nThank you very much!</p>\r\n<table>\r\n<tr>\r\n<td>URL:</td>\r\n<td>http://testnet.binancefuture.com/ws</td>\r\n</tr>\r\n<tr>\r\n<td>Server:</td>\r\n<td>tk_prod_dispatcher_pg</td>\r\n</tr>\r\n<tr>\r\n<td>Date:</td>\r\n<td>2024/01/30 16:33:48</td>\r\n</tr>\r\n</table>\r\n<hr/>Powered by Bengine<hr><center>tengine</center>\r\n</body>\r\n</html>\r\n' - goodbye
+2024-01-30 16:33:49,092 - ERROR - error from callback <bound method BinanceFuturesClient.on_close of <connections.binance_futures.BinanceFuturesClient object at 0x000001AD03A118E0>>: BinanceFuturesClient.on_close() takes 2 positional arguments but 4 were given
+2024-01-30 16:33:49,092 - ERROR - Connection error BinanceFuturesClient.on_close() takes 2 positional arguments but 4 were given
+2024-01-30 16:35:11,385 - INFO - Binance Futures Client Initiated
+2024-01-30 16:35:12,381 - ERROR - Connection error Handshake status 502 Bad Gateway -+-+- {'content-type': 'text/html', 'content-length': '582', 'connection': 'close', 'date': 'Tue, 30 Jan 2024 16:35:12 GMT', 'server': 'Bengine', 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS', 'x-cache': 'Error from cloudfront', 'via': '1.1 7fd88bab22735486702d23ba4e028d86.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'FRA60-P3', 'x-amz-cf-id': 'qJAOjj8Ztt1AnlzjHU8gzo26aBxHplzKlqQVUrKOJvQa0utd9CyTpA=='} -+-+- b'<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n Sorry for the inconvenience.<br/>\r\nPlease report this message and include the following information to us.<br/>\r\nThank you very much!</p>\r\n<table>\r\n<tr>\r\n<td>URL:</td>\r\n<td>http://testnet.binancefuture.com/ws</td>\r\n</tr>\r\n<tr>\r\n<td>Server:</td>\r\n<td>tk_prod_dispatcher_pg</td>\r\n</tr>\r\n<tr>\r\n<td>Date:</td>\r\n<td>2024/01/30 16:35:12</td>\r\n</tr>\r\n</table>\r\n<hr/>Powered by Bengine<hr><center>tengine</center>\r\n</body>\r\n</html>\r\n'
+2024-01-30 16:35:12,381 - ERROR - Handshake status 502 Bad Gateway -+-+- {'content-type': 'text/html', 'content-length': '582', 'connection': 'close', 'date': 'Tue, 30 Jan 2024 16:35:12 GMT', 'server': 'Bengine', 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS', 'x-cache': 'Error from cloudfront', 'via': '1.1 7fd88bab22735486702d23ba4e028d86.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'FRA60-P3', 'x-amz-cf-id': 'qJAOjj8Ztt1AnlzjHU8gzo26aBxHplzKlqQVUrKOJvQa0utd9CyTpA=='} -+-+- b'<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n Sorry for the inconvenience.<br/>\r\nPlease report this message and include the following information to us.<br/>\r\nThank you very much!</p>\r\n<table>\r\n<tr>\r\n<td>URL:</td>\r\n<td>http://testnet.binancefuture.com/ws</td>\r\n</tr>\r\n<tr>\r\n<td>Server:</td>\r\n<td>tk_prod_dispatcher_pg</td>\r\n</tr>\r\n<tr>\r\n<td>Date:</td>\r\n<td>2024/01/30 16:35:12</td>\r\n</tr>\r\n</table>\r\n<hr/>Powered by Bengine<hr><center>tengine</center>\r\n</body>\r\n</html>\r\n' - goodbye
+2024-01-30 16:35:12,381 - ERROR - error from callback <bound method BinanceFuturesClient.on_close of <connections.binance_futures.BinanceFuturesClient object at 0x0000024362559340>>: BinanceFuturesClient.on_close() takes 2 positional arguments but 4 were given
+2024-01-30 16:35:12,381 - ERROR - Connection error BinanceFuturesClient.on_close() takes 2 positional arguments but 4 were given
+2024-01-30 16:35:55,940 - INFO - Binance Futures Client Initiated
+2024-01-30 16:36:30,124 - INFO - Binance Futures Client Initiated
+2024-01-30 16:36:31,177 - ERROR - Connection error Handshake status 502 Bad Gateway -+-+- {'content-type': 'text/html', 'content-length': '582', 'connection': 'close', 'date': 'Tue, 30 Jan 2024 16:36:30 GMT', 'server': 'Bengine', 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS', 'x-cache': 'Error from cloudfront', 'via': '1.1 74c5b19a4695b76162adbf07ed9ef370.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'FRA60-P3', 'x-amz-cf-id': 'BCI-t1yY-tEkx7ib44MZAcIVE_oz22LmvVLmXmdp5xprJBCdaZyaLw=='} -+-+- b'<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n Sorry for the inconvenience.<br/>\r\nPlease report this message and include the following information to us.<br/>\r\nThank you very much!</p>\r\n<table>\r\n<tr>\r\n<td>URL:</td>\r\n<td>http://testnet.binancefuture.com/ws</td>\r\n</tr>\r\n<tr>\r\n<td>Server:</td>\r\n<td>tk_prod_dispatcher_pg</td>\r\n</tr>\r\n<tr>\r\n<td>Date:</td>\r\n<td>2024/01/30 16:36:30</td>\r\n</tr>\r\n</table>\r\n<hr/>Powered by Bengine<hr><center>tengine</center>\r\n</body>\r\n</html>\r\n'
+2024-01-30 16:36:31,178 - ERROR - Handshake status 502 Bad Gateway -+-+- {'content-type': 'text/html', 'content-length': '582', 'connection': 'close', 'date': 'Tue, 30 Jan 2024 16:36:30 GMT', 'server': 'Bengine', 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS', 'x-cache': 'Error from cloudfront', 'via': '1.1 74c5b19a4695b76162adbf07ed9ef370.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'FRA60-P3', 'x-amz-cf-id': 'BCI-t1yY-tEkx7ib44MZAcIVE_oz22LmvVLmXmdp5xprJBCdaZyaLw=='} -+-+- b'<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\r\n<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n Sorry for the inconvenience.<br/>\r\nPlease report this message and include the following information to us.<br/>\r\nThank you very much!</p>\r\n<table>\r\n<tr>\r\n<td>URL:</td>\r\n<td>http://testnet.binancefuture.com/ws</td>\r\n</tr>\r\n<tr>\r\n<td>Server:</td>\r\n<td>tk_prod_dispatcher_pg</td>\r\n</tr>\r\n<tr>\r\n<td>Date:</td>\r\n<td>2024/01/30 16:36:30</td>\r\n</tr>\r\n</table>\r\n<hr/>Powered by Bengine<hr><center>tengine</center>\r\n</body>\r\n</html>\r\n' - goodbye
+2024-01-30 16:36:31,178 - WARNING - Websocket connection closed
+2024-01-30 16:37:59,611 - INFO - Binance Futures Client Initiated
+2024-01-30 16:38:56,990 - INFO - Binance Futures Client Initiated
+2024-01-30 16:38:58,064 - INFO - Websocket connected
+2024-01-30 16:38:58,064 - INFO - Connection opened
+2024-01-30 16:43:56,533 - INFO - Binance Futures Client Initiated
+2024-01-30 16:43:57,883 - INFO - Websocket connected
+2024-01-30 16:43:57,883 - INFO - Connection opened
+2024-01-30 16:48:53,027 - INFO - Binance Futures Client Initiated
+2024-01-30 16:48:53,994 - INFO - Websocket connected
+2024-01-30 16:48:53,994 - INFO - Connection opened
+2024-01-30 16:49:57,888 - INFO - Binance Futures Client Initiated
+2024-01-30 16:49:58,902 - INFO - Websocket connected
+2024-01-30 16:49:58,902 - INFO - Connection opened
+2024-01-30 16:51:05,887 - INFO - Binance Futures Client Initiated
+2024-01-30 16:51:06,908 - INFO - Websocket connected
+2024-01-30 16:51:06,908 - INFO - Connection opened
+2024-01-30 16:51:07,234 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000001FD68727F50>>: cannot access local variable 'symbol' where it is not associated with a value
+2024-01-30 16:51:07,234 - ERROR - Connection error cannot access local variable 'symbol' where it is not associated with a value
+2024-01-30 16:51:12,938 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000001FD68727F50>>: cannot access local variable 'symbol' where it is not associated with a value
+2024-01-30 16:51:12,939 - ERROR - Connection error cannot access local variable 'symbol' where it is not associated with a value
+2024-01-30 16:51:13,748 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000001FD68727F50>>: cannot access local variable 'symbol' where it is not associated with a value
+2024-01-30 16:51:13,748 - ERROR - Connection error cannot access local variable 'symbol' where it is not associated with a value
+2024-01-30 16:51:15,303 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000001FD68727F50>>: cannot access local variable 'symbol' where it is not associated with a value
+2024-01-30 16:51:15,303 - ERROR - Connection error cannot access local variable 'symbol' where it is not associated with a value
+2024-01-30 16:51:15,455 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000001FD68727F50>>: cannot access local variable 'symbol' where it is not associated with a value
+2024-01-30 16:51:15,455 - ERROR - Connection error cannot access local variable 'symbol' where it is not associated with a value
+2024-01-30 16:51:22,825 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000001FD68727F50>>: cannot access local variable 'symbol' where it is not associated with a value
+2024-01-30 16:51:22,825 - ERROR - Connection error cannot access local variable 'symbol' where it is not associated with a value
+2024-01-30 16:51:28,857 - INFO - Binance Futures Client Initiated
+2024-01-30 16:51:29,818 - INFO - Websocket connected
+2024-01-30 16:51:29,818 - INFO - Connection opened
+2024-01-30 16:52:44,267 - INFO - Binance Futures Client Initiated
+2024-01-30 16:52:45,251 - INFO - Websocket connected
+2024-01-30 16:52:45,251 - INFO - Connection opened
+2024-01-30 16:53:23,130 - INFO - Binance Futures Client Initiated
+2024-01-30 16:53:24,140 - INFO - Websocket connected
+2024-01-30 16:53:24,140 - INFO - Connection opened
+2024-01-30 16:54:28,571 - INFO - Binance Futures Client Initiated
+2024-01-30 16:54:29,617 - INFO - Websocket connected
+2024-01-30 16:54:29,617 - INFO - Connection opened
+2024-01-30 16:55:56,593 - INFO - Binance Futures Client Initiated
+2024-01-30 16:55:57,559 - INFO - Websocket connected
+2024-01-30 16:55:57,559 - INFO - Connection opened
+2024-01-30 16:56:21,762 - INFO - Binance Futures Client Initiated
+2024-01-30 16:56:22,771 - INFO - Websocket connected
+2024-01-30 16:56:22,771 - INFO - Connection opened
+2024-01-30 16:56:59,598 - INFO - Binance Futures Client Initiated
+2024-01-30 16:57:00,585 - INFO - Websocket connected
+2024-01-30 16:57:00,585 - INFO - Connection opened
+2024-01-30 16:57:00,885 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: 's'
+2024-01-30 16:57:00,885 - ERROR - Connection error 's'
+2024-01-30 16:57:02,308 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:02,308 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:02,308 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:02,308 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:03,241 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:03,241 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:03,241 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:03,241 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:03,413 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:03,413 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:03,500 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:03,500 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:03,509 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:03,509 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:05,002 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:05,002 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:05,543 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:05,543 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:05,986 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:05,986 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:06,035 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:06,035 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:07,317 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:07,317 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:11,200 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:11,201 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:12,403 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:12,403 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:13,319 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:13,320 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:13,602 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:13,602 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:16,250 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:16,251 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:16,277 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:16,277 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:16,560 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:16,560 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:17,287 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002C278B503E0>>: unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:17,287 - ERROR - Connection error unsupported operand type(s) for +: 'dict' and 'str'
+2024-01-30 16:57:18,649 - INFO - Binance Futures Client Initiated
+2024-01-30 16:57:19,621 - INFO - Websocket connected
+2024-01-30 16:57:19,622 - INFO - Connection opened
+2024-01-30 16:57:19,942 - ERROR - error from callback <bound method BinanceFuturesClient.on_message of <connections.binance_futures.BinanceFuturesClient object at 0x000002A38D18AFC0>>: 's'
+2024-01-30 16:57:19,942 - ERROR - Connection error 's'

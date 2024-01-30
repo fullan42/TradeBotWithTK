@@ -1,6 +1,9 @@
 import tkinter as tk
 import logging
-import binance_futures as bf
+import unittest
+
+from connections import binance_futures as bf
+
 logger= logging.getLogger()
 
 
@@ -20,26 +23,14 @@ logger.addHandler(file_hadler)
 
 logger.addHandler(stream_handler)
 
-logger.info('this is logged in all cases')
 
 if __name__ == '__main__':
-    binanceContracts=bf.get_contracts()
+    binance_client = bf.BinanceFuturesClient("ad08cd0dca0ad5465e9b309259df0216931329d71422116937576e943c4352c0", "b233aedcb230204d811f21efecf8714d5af13b8a992f00d024270c75f871132d", True)
 
+    #print(binance_client.place_order("BTCUSDT", "BUY", "LIMIT", 0.01, 11000, "GTC"))
+   # print(binance_client.get_order_status("BTCUSDT", 3675625106))
+    #print(binance_client.cancel_order("BTCUSDT", 3675624396))
     root = tk.Tk()
-    root.title("Binance Futures Contracts")
-    root.configure(bg='gray12')
-    i=0
-    j=0
-    calibri_font = ("Calibri", 12, "bold")
-    for contract in binanceContracts:
-        label_widget=tk.Label(root, text=contract, borderwidth=2, relief="groove",bg='gray12',fg='white', padx=10, pady=10,font=calibri_font)
-        label_widget.grid(row=i, column=j, sticky="nsew")
-        if i==20:
-            j+=1
-            i=0
-        else:
-            i +=1
-
     root.mainloop()
 
 
