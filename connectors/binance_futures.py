@@ -20,6 +20,7 @@ logger = logging.getLogger()
 
 class BinanceFuturesClient:
     def __init__(self, public_key: str, secret_key: str, testnet: bool):
+        self.logs = []
         if testnet:
             self._base_url = "https://testnet.binancefuture.com"
             self._wss_url = "wss://stream.binancefuture.com/ws"

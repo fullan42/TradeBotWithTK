@@ -22,6 +22,7 @@ logger = logging.getLogger()
 class BitmexClient:
     def __init__(self, public_key: str, secret_key: str, testnet: bool):
 
+        self.logs = []
         if testnet:
             self._base_url = "https://testnet.bitmex.com"
             self._wss_url = "wss://testnet.bitmex.com/realtime"
