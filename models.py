@@ -67,7 +67,6 @@ class Contract:
             self.quantity_decimals = contract_info['quantityPrecision']
             self.tick_size = 1 / pow(10, contract_info['pricePrecision'])
             self.lot_size = 1 / pow(10, contract_info['quantityPrecision'])
-
         elif exchange == "bitmex":
             self.symbol = contract_info['symbol']
             self.base_asset = contract_info['rootSymbol']
@@ -76,6 +75,28 @@ class Contract:
             self.quantity_decimals = tick_to_decimals(contract_info['lotSize'])
             self.tick_size = contract_info['tickSize']
             self.lot_size = contract_info['lotSize']
+
+    def get_symbol(self):
+        return self.symbol
+
+    def get_base_asset(self):
+        return self.base_asset
+
+    def get_quote_asset(self):
+        return self.quote_asset
+
+    def get_price_decimals(self):
+        return self.price_decimals
+
+    def get_quantity_decimals(self):
+        return self.quantity_decimals
+
+    def get_tick_size(self):
+        return self.tick_size
+
+    def get_lot_size(self):
+        return self.lot_size
+
 
 
 class OrderStatus:

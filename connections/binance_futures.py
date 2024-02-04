@@ -89,7 +89,6 @@ class BinanceFuturesClient:
         if exchange_info is not None:
             for contract_data in exchange_info['symbols']:
                 contracts[contract_data['pair']] = Contract(contract_data, "binance")
-
         return contracts
 
     def get_historical_candles(self, contract: Contract, interval: str) -> typing.List[Candle]:
@@ -207,7 +206,7 @@ class BinanceFuturesClient:
     def _on_open(self, ws):
         logger.info("Binance connection opened")
 
-        self.subscribe_channel(list(self.contracts.values()), "bookTicker")
+        self._subscribe_channel(list(self.contracts.values()), "bookTicker")
 
     def _on_close(self, ws):
         logger.warning("Binance Websocket connection closed")
@@ -230,7 +229,7 @@ class BinanceFuturesClient:
                     self.prices[symbol]['bid'] = float(data['b'])
                     self.prices[symbol]['ask'] = float(data['a'])
 
-    def subscribe_channel(self, contracts: typing.List[Contract], channel: str):
+    def _subscribe_channel(self, contracts: typing.List[Contract], channel: str):
         data = dict()
         data['method'] = "SUBSCRIBE"
         data['params'] = []

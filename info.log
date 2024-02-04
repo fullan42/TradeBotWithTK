@@ -13,3 +13,111 @@
 2024-01-31 19:30:22,279 - INFO - Binance Futures Client successfully initialized
 2024-01-31 19:30:23,520 - INFO - Websocket connected
 2024-01-31 19:30:23,520 - INFO - Binance connection opened
+2024-02-04 18:17:40,648 - INFO - Binance Futures Client successfully initialized
+2024-02-04 18:17:42,348 - INFO - Websocket connected
+2024-02-04 18:17:42,348 - INFO - Binance connection opened
+2024-02-04 18:34:45,436 - INFO - Binance Futures Client successfully initialized
+2024-02-04 18:34:46,700 - INFO - Websocket connected
+2024-02-04 18:34:46,700 - INFO - Binance connection opened
+2024-02-04 18:35:05,048 - INFO - Binance Futures Client successfully initialized
+2024-02-04 18:35:06,277 - INFO - Websocket connected
+2024-02-04 18:35:06,277 - INFO - Binance connection opened
+2024-02-04 18:35:47,505 - INFO - Binance Futures Client successfully initialized
+2024-02-04 18:35:48,754 - INFO - Websocket connected
+2024-02-04 18:35:48,754 - INFO - Binance connection opened
+2024-02-04 18:36:27,810 - INFO - Binance Futures Client successfully initialized
+2024-02-04 18:36:29,084 - INFO - Websocket connected
+2024-02-04 18:36:29,084 - INFO - Binance connection opened
+2024-02-04 18:39:17,228 - INFO - Binance Futures Client successfully initialized
+2024-02-04 18:39:18,636 - INFO - Websocket connected
+2024-02-04 18:39:18,636 - INFO - Binance connection opened
+2024-02-04 18:39:33,292 - INFO - Binance Futures Client successfully initialized
+2024-02-04 18:39:34,518 - INFO - Websocket connected
+2024-02-04 18:39:34,518 - INFO - Binance connection opened
+2024-02-04 18:43:18,379 - INFO - Binance Futures Client successfully initialized
+2024-02-04 18:43:19,663 - INFO - Websocket connected
+2024-02-04 18:43:19,663 - INFO - Binance connection opened
+2024-02-04 18:43:50,059 - INFO - Binance Futures Client successfully initialized
+2024-02-04 18:43:51,284 - INFO - Websocket connected
+2024-02-04 18:43:51,284 - INFO - Binance connection opened
+2024-02-04 18:44:12,421 - INFO - Binance Futures Client successfully initialized
+2024-02-04 18:44:13,693 - INFO - Websocket connected
+2024-02-04 18:44:13,693 - INFO - Binance connection opened
+2024-02-04 18:45:11,290 - INFO - Binance Futures Client successfully initialized
+2024-02-04 18:45:12,779 - INFO - Websocket connected
+2024-02-04 18:45:12,779 - INFO - Binance connection opened
+2024-02-04 18:45:23,944 - INFO - Binance Futures Client successfully initialized
+2024-02-04 18:45:25,248 - INFO - Websocket connected
+2024-02-04 18:45:25,248 - INFO - Binance connection opened
+2024-02-04 18:54:31,941 - INFO - Binance Futures Client successfully initialized
+2024-02-04 18:54:33,264 - INFO - Websocket connected
+2024-02-04 18:54:33,265 - INFO - Binance connection opened
+2024-02-04 19:02:13,599 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:02:14,905 - INFO - Websocket connected
+2024-02-04 19:02:14,905 - INFO - Binance connection opened
+2024-02-04 19:05:05,534 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:05:06,825 - INFO - Websocket connected
+2024-02-04 19:05:06,825 - INFO - Binance connection opened
+2024-02-04 19:05:39,595 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:05:40,837 - INFO - Websocket connected
+2024-02-04 19:05:40,837 - INFO - Binance connection opened
+2024-02-04 19:07:55,314 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:07:56,637 - INFO - Websocket connected
+2024-02-04 19:07:56,637 - INFO - Binance connection opened
+2024-02-04 19:08:57,331 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:08:58,692 - INFO - Websocket connected
+2024-02-04 19:08:58,692 - INFO - Binance connection opened
+2024-02-04 19:09:11,452 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:09:12,693 - INFO - Websocket connected
+2024-02-04 19:09:12,693 - INFO - Binance connection opened
+2024-02-04 19:28:07,517 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:28:08,180 - ERROR - Error while making POST request to /fapi/v1/order: {'code': -1102, 'msg': "Mandatory parameter 'timeinforce' was not sent, was empty/null, or malformed."} (error code 400)
+2024-02-04 19:28:08,874 - INFO - Websocket connected
+2024-02-04 19:28:08,874 - INFO - Binance connection opened
+2024-02-04 19:29:24,017 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:29:25,331 - INFO - Websocket connected
+2024-02-04 19:29:25,332 - INFO - Binance connection opened
+2024-02-04 19:29:33,217 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:29:33,922 - ERROR - Error while making POST request to /fapi/v1/order: {'code': -1102, 'msg': "Mandatory parameter 'timeinforce' was not sent, was empty/null, or malformed."} (error code 400)
+2024-02-04 19:29:34,491 - INFO - Websocket connected
+2024-02-04 19:29:34,491 - INFO - Binance connection opened
+2024-02-04 19:36:11,599 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:36:12,916 - INFO - Websocket connected
+2024-02-04 19:36:12,916 - INFO - Binance connection opened
+2024-02-04 19:37:04,409 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:37:05,098 - ERROR - Error while making POST request to /fapi/v1/order: {'code': -1117, 'msg': 'Invalid side.'} (error code 400)
+2024-02-04 19:37:05,632 - INFO - Websocket connected
+2024-02-04 19:37:05,632 - INFO - Binance connection opened
+2024-02-04 19:37:23,379 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:37:24,737 - INFO - Websocket connected
+2024-02-04 19:37:24,737 - INFO - Binance connection opened
+2024-02-04 19:37:57,675 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:37:58,966 - INFO - Websocket connected
+2024-02-04 19:37:58,966 - INFO - Binance connection opened
+2024-02-04 19:38:05,198 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:38:05,918 - ERROR - Error while making POST request to /fapi/v1/order: {'code': -4131, 'msg': "The counterparty's best price does not meet the PERCENT_PRICE filter limit."} (error code 400)
+2024-02-04 19:38:06,389 - INFO - Websocket connected
+2024-02-04 19:38:06,390 - INFO - Binance connection opened
+2024-02-04 19:38:22,598 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:38:23,308 - ERROR - Error while making POST request to /fapi/v1/order: {'code': -4131, 'msg': "The counterparty's best price does not meet the PERCENT_PRICE filter limit."} (error code 400)
+2024-02-04 19:38:23,824 - INFO - Websocket connected
+2024-02-04 19:38:23,824 - INFO - Binance connection opened
+2024-02-04 19:38:36,098 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:38:36,783 - ERROR - Error while making POST request to /fapi/v1/order: {'code': -1102, 'msg': "Mandatory parameter 'timeinforce' was not sent, was empty/null, or malformed."} (error code 400)
+2024-02-04 19:38:37,391 - INFO - Websocket connected
+2024-02-04 19:38:37,391 - INFO - Binance connection opened
+2024-02-04 19:38:54,371 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:38:55,085 - ERROR - Error while making POST request to /fapi/v1/order: {'code': -1102, 'msg': "Mandatory parameter 'timeinforce' was not sent, was empty/null, or malformed."} (error code 400)
+2024-02-04 19:38:55,700 - INFO - Websocket connected
+2024-02-04 19:38:55,700 - INFO - Binance connection opened
+2024-02-04 19:39:04,689 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:39:06,115 - INFO - Websocket connected
+2024-02-04 19:39:06,116 - INFO - Binance connection opened
+2024-02-04 19:39:06,461 - ERROR - Error while making POST request to /fapi/v1/order: {'code': -1102, 'msg': "Mandatory parameter 'timeinforce' was not sent, was empty/null, or malformed."} (error code 400)
+2024-02-04 19:39:28,312 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:39:28,962 - ERROR - Error while making POST request to /fapi/v1/order: {'code': -1102, 'msg': "Mandatory parameter 'timeinforce' was not sent, was empty/null, or malformed."} (error code 400)
+2024-02-04 19:39:29,534 - INFO - Websocket connected
+2024-02-04 19:39:29,534 - INFO - Binance connection opened
+2024-02-04 19:40:04,336 - INFO - Binance Futures Client successfully initialized
+2024-02-04 19:40:05,635 - INFO - Websocket connected
+2024-02-04 19:40:05,635 - INFO - Binance connection opened
