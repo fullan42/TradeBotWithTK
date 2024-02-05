@@ -2,9 +2,11 @@ import numpy as np
 import datetime as dt
 import matplotlib.pyplot as plt
 import seaborn as sns
+sns.set()
 import pandas as pd
 
-sns.set()
+# TQQQ.csv dosyasını oku
+df = pd.read_csv('TQQQ.csv')
 
 class KAMAIndicator:
     def __init__(self, price_series, period=30, period_fast=2, period_slow=30):
@@ -27,41 +29,33 @@ class KAMAIndicator:
         sc = (er * (sc_fastest - sc_slowest) + sc_slowest) ** 2
 
         # KAMA Calculation
-        kama = np.zeros_like(close)
-        kama[self.period - 1] = close[self.period - 1]
+        kama = pd.Series(index=close.index)
+        kama[self.period - 1] = close.iloc[self.period - 1]
         for i in range(self.period, len(close)):
             kama[i] = kama[i - 1] + sc[i] * (close[i] - kama[i - 1])
         kama[kama == 0] = np.nan
 
         return kama
 
-    def plot_kama(self):
+    def isKamaBullish(self):
         kama_values = self.calculate_kama()
+        last_kama = kama_values.iloc[-1]
+        last_close = self.price_series.iloc[-1]
 
-        df = pd.DataFrame({
-            'Close': self.price_series,
-            'KAMA': kama_values,
-            'SMA_10days': self.price_series.rolling(self.period).mean()
-        })
+        if last_close > last_kama:
+            return True
+        else:
+            return False
 
-        figsize = (12, 6)
-        df[['KAMA', 'Close']].plot(figsize=figsize)
-        df['SMA_10days'].plot(linestyle="-")
-        plt.legend(['KAMA', 'Close', 'SMA_10day'])
-        plt.title("KAMA ({0},{1},{2})".format(self.period, self.period_fast, self.period_slow))
-        plt.show()
+# Veriyi incele
+print(df.head())
 
+# 'Close' sütununu kullanarak KAMA hesapla
+price_series = df['Close']
 
-if __name__ == "__main__":
-    # CSV dosyasının yolu
-    dosya_yolu = "TQQQ.csv"
+# KAMAIndicator sınıfını kullanarak bir örnek oluştur
+kama_indicator = KAMAIndicator(price_series)
 
-    # CSV dosyasını oku ve veri çerçevesine dönüştür
-    df = pd.read_csv(dosya_yolu)
-
-    # Veri çerçevesinin ilk birkaç satırını yazdır
-    print(df.head())
-
-    close_prices = df['Adj Close']
-    kama_indicator = KAMAIndicator(close_prices)
-    kama_indicator.plot_kama()
+# isKamaBullish yöntemini kullanarak KAMA'nın boğa eğiliminde olup olmadığını kontrol et
+is_bullish = kama_indicator.isKamaBullish()
+print("Is KAMA Bullish?", is_bullish)
