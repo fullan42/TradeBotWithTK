@@ -251,3 +251,9 @@
 2024-02-04 21:47:29,933 INFO :: Binance connection opened
 2024-02-04 21:47:30,272 INFO :: Websocket connected
 2024-02-04 21:47:30,272 INFO :: Bitmex connection opened
+2024-02-05 10:58:48,768 INFO :: Binance Futures Client successfully initialized
+2024-02-05 10:58:49,978 INFO :: Bitmex Client successfully initialized
+2024-02-05 10:58:50,364 INFO :: Websocket connected
+2024-02-05 10:58:50,365 INFO :: Binance connection opened
+2024-02-05 10:58:50,881 INFO :: Websocket connected
+2024-02-05 10:58:50,881 INFO :: Bitmex connection opened
